@@ -1,0 +1,47 @@
+/*============= GENERAL DESCRIPTION SECTION =============*/
+.descrip {
+  background-image: url("../../img/studio/mic-hand-bw.jpg");
+  background-size: cover;
+  background-attachment: relative;
+  background-position: center;
+  z-index: -1;
+}
+.descrip-overlay {
+  /* background-color: rgb(24, 159, 201); */
+  background-color: rgba(79, 40, 103, 0.7);
+}
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-sm {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.btn-turquoise {
+  border-color: #1ebba3;
+  background-color: #1ebba3;
+  color: white;
+}
+.btn-turquoise:hover,
+.btn-turquoise:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 3rem;
+}
+/* .descrip{
+  background-colour
+} */

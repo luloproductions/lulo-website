@@ -1,0 +1,48 @@
+/*===== PRODUCTION SECTION =====*/
+.production {
+  background-image: url("../../img/studio/production-bg.jpg");
+  background-size: cover;
+  z-index: -1;
+  background-attachment: fixed;
+}
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+/*.light {
+  padding: 3rem 2rem 2rem;
+  z-index: 1000 !important;
+}*/
+.light {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 0 2rem 0;
+  z-index: 1000 !important;
+}
+.card {
+  border: 0.1rem solid rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.7);
+  margin: 0rem 1rem 2rem 1rem;
+  /* transition: transform 0.4s ease; */
+  background-color: rgba(240, 172, 10, 0.6);
+  margin-bottom: 2rem;
+}
+/* .card:hover {
+  transform: scale(1.1);
+} */
+.card-record {
+  height: 40vh;
+  background-image: url(../../img/studio/mic.jpg);
+  background-size: cover;
+}
+.card-event {
+  height: 40vh;
+  background-image: url(../../img/concerts/trumpet-800.jpg);
+  background-size: cover;
+}
+
+img .card {
+  size: 80%;
+}
+.card-heading {
+  font-size: 2rem;
+}
