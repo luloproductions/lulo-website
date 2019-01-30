@@ -1,9 +1,10 @@
 /*===== BOOKING SECTION =====*/
 
 .booking {
-  background-image: url("../../img/Concerts/booking-bg.jpg");
+  background-image: url("../../img/booking/booking-xs.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   z-index: -1;
 }
 .booking-dark {
@@ -11,9 +12,6 @@
   text-align: center;
   z-index: 1000 !important;
   color: white;
-}
-.pad {
-  padding: 2.5rem 2.5rem;
 }
 .maps {
   height: 25vh;
@@ -24,7 +22,7 @@
   transform: scale(1.1);
 }
 .map-col {
-  background-image: url(../../img/Travel/map-colombia.png);
+  background-image: url(../../img/booking/map-colombia-low.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +30,7 @@
   justify-content: center;
 }
 .map-esp {
-  background-image: url(../../img/Travel/map-spain.png);
+  background-image: url(../../img/booking/map-spain-low.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -40,7 +38,7 @@
   justify-content: center;
 }
 .map-uk {
-  background-image: url(../../img/Travel/map-england.png);
+  background-image: url(../../img/booking/map-england-low.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +46,7 @@
   justify-content: center;
 }
 .map-fra {
-  background-image: url(../../img/Travel/map-france.png);
+  background-image: url(../../img/booking/map-france-low.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,10 +54,12 @@
   justify-content: center;
 }
 .map-text {
-  margin: 0;
+  margin: 0.1rem;
   padding: 0.1;
   color: lightgray;
+  font-size: 1.5rem;
 }
 .country {
-  width: 200px;
+  width: 170px;
+  padding: 0;
 }

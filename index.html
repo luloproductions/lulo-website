@@ -76,13 +76,17 @@
       <section id="description-section">
       <div class="caption text-center">
         <div class="os-animation" data-animation="bounceInUp" data-delay=".6s">
-          <div class="row big-logo">
-            <div class="pad">
-            <img src="assets/img/Logo/lulo-logo-smooth-800.png" alt="" class="logo"/>
+          <div class="row caption big-logo">
+            <div class="main-logo">
+              <picture>
+                  <img src="assets/img/Logo/lulo-logo-smooth-800 copy.png" alt="" class="logo"/>
+              </picture>
+            
             </div>
-           <!-- <div class="os-animation" data-animation="bounceInUp" data-delay=".7s">
-              <h2>¡En la tardanza está el peligro!</h2>
-            </div> -->
+           <div class="os-animation" data-animation="bounceInUp" data-delay=".7s">
+              <h2 id="slogan">Tienes afán de llegar? ve solo.</h2>
+              <h2 id="slogan">Si quieres <strong>llegar lejos</strong>, ve <strong>acompañado.</strong></h2>
+            </div>
           </div>
         </div>
 
@@ -116,7 +120,7 @@
               <div>
                 <h2 class="heading">Qué Hacemos?</h2>
                 <div class="heading-underline"></div>
-                <p class="lead">
+                <p class="main-text">
                   Creemos en que la diversidad y riqueza de la música colombiana merece ser escuchada y apreciada en todo el mundo. Lulo production tiene la misión de cambiar el paradigma de la industria musical colombiana, trabajando holisticamente desde la creación artística hasta los medios y las tarimas. 
                 </p>
                 <!-- <a class="btn btn-secondary btn-sm" href="#contact"
@@ -148,7 +152,7 @@
                 <h2 class="heading">Booking Internacional</h2>
                 <div class="heading-underline"></div>
               </div>
-              <p class="lead">
+              <p class="main-text">
                   Trabajamos para que la circulación internacional sea una constante en la vida del artista colombiano, con el fin de fortalecer la escena musical y respaldar los intereses de los artistas. Especializados en la industria musical europea y colombiana, creamos puentes para facilitar la movilidad de las bandas latinoamericanas por Europa y viceversa.
               </p>
               <div
@@ -197,19 +201,19 @@
       <!--- Start Fixed Background IMG Light -->
       <!-- <div class="fixed-background"> -->
         <div class="production">
-          <div class="light">
+          <div class="production-overlay">
               
             <div class="col-12 os-animation p-0" data-animation="fadeInUp">
               <h2 class="heading text-light">Producciónes</h2>
               <div class="heading-underline"></div>
             </div>
-            <div class="col-md-12 p-0">
+            <div class="col-sm-12 p-0">
               <!-- <div class="os-animation" data-animation="fadeInUp"> -->
                 <!-- <div id="team-slider" class="owl-carousel owl-theme"> -->
-                <div class="row col-sm justify-content-around">
+                <div class="row col-sm p-0 justify-content-around">
 
-                  <div class=" col-sm-6 col-md-5 col-lg-4 col-xl-4 p-0">
-                    <div class="card mb-4 text-white text-center">
+                  <div class="card-group col-sm-6 col-md-5 col-lg-4 col-xl-4 p-0">
+                    <div class="card text-white text-center">
                       <div class="card-event">
                       <!-- <img
                         src="img/team/Sergihaha.jpg"
@@ -220,10 +224,10 @@
                       <div class="card-body">
                         <h3 class="card-heading">Eventos</h3>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-transparent">Contratación de A</li>
-                            <li class="list-group-item bg-transparent">Logística</li>
-                            <li class="list-group-item bg-transparent">Sonido</li>
-                            <li class="list-group-item bg-transparent">Promoción</li>
+                            <li class="list-group-item bg-transparent main-text">Contratación de Artistas</li>
+                            <li class="list-group-item bg-transparent main-text">Logística</li>
+                            <li class="list-group-item bg-transparent main-text">Sonido</li>
+                            <li class="list-group-item bg-transparent main-text">Promoción</li>
                           </ul>
                         <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a> -->
@@ -231,8 +235,8 @@
                     </div>
                   </div>
 
-                  <div class=" col-sm-6 col-md-5 col-lg-4 col-xl-4 p-0">
-                    <div class="card mb-4 text-white text-center">
+                  <div class="card-group col-sm-6 col-md-5 col-lg-4 col-xl-4 p-0">
+                    <div class="card text-white text-center">
                       <div class="card-record">
                       <!-- <img
                         src="img/team/Sergi.jpg"
@@ -271,31 +275,33 @@
    <footer >
      <div class="footer-overlay">
      <div class="row">
-       <div class="col email-list col-md-5">
+       <div class="contact-list contact-group col-sm-5">
           
-          <p class="lead mb-0">Sergi Batiste</p>
-          <p class="my-0">3023018638</p>
-          <p class="mt-0">booking@luloproductions.com</p>
-         <p class="lead my-0">Joe Howlett</p>
-         <p class="my-0"> 3192452600</p>
-         <p class="mt-0">production@luloproductions.com</p>
-         <p class="lead my-0">info@luloproductions.com</p>
-         <p class="my-0">Dirección: Cra 16A #2A-12, Bogotá DC, Colombia</p>
+          <p class="main-text-big mb-0">Sergi Batiste</p>
+          <p class="main-text-sml my-0">3023018638</p>
+          <p class="main-text-sml mt-0">booking@luloproductions.com</p>
+          <hr class="contact-list">
+         <p class="main-text-big my-0">Joe Howlett</p>
+         <p class="main-text-sml my-0"> 3192452600</p>
+         <p class="main-text-sml mt-0">production@luloproductions.com</p>
+         <hr class="contact-list">
+         <p class="main-text-sml lead my-0">info@luloproductions.com</p>
+         <p class="main-text-sml my-0">Dirección: Cra 16A #2A-12, Bogotá DC, Colombia</p>
        </div>
-       <div class="col email-form col-md-7">
+       <div class="contact-form col-sm-7">
          <h2 class=" text-center">Contactenos</h3>
          <form action="contact.php" id="contact-form" method="post">
            <div class="messages">
 
            </div>
            <div class="controls">
-             <div class="form-group text-black">
+             <div class="form-group text-center">
                <input type="text" id="form_name" name="name" class="form-control" placeholder="Tu Nombre" required="required">
              </div>
-             <div class="form-group">
+             <div class="form-group text-center">
                 <input type="email" id="form_email" name="email" class="form-control" placeholder="Tu Email" required="required">
               </div>
-              <div class="form-group">
+              <div class="form-group text-center">
                   <textarea name="message" id="form_message" class="form-control" rows="5" placeholder="Tu Mensaje"></textarea>
                 </div>
                 <div class="form-group text-center">

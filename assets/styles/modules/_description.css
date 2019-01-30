@@ -1,9 +1,9 @@
 /*============= GENERAL DESCRIPTION SECTION =============*/
 .descrip {
-  background-image: url("../../img/studio/mic-hand-bw.jpg");
+  background-image: url("../../img/description/description-xs.jpg");
   background-size: cover;
   background-attachment: relative;
-  background-position: center;
+  background-position: left;
   z-index: -1;
 }
 .descrip-overlay {

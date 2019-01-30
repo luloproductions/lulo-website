@@ -1,18 +1,186 @@
-/*============ BOOTSTRAP BREAK POINTS:
+/* ================= MEDIA QUERIES ====================*/
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+/* Extra small (xs) devices are the default in Bootstrap  */
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/* SMALL (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .home-inner {
+    background-image: url("../../img/landing/landing-sm.jpg");
+  }
+  .booking {
+    background-image: url("../../img/booking/booking-sm.jpg");
+  }
+  .production {
+    background-image: url("../../img/production/production-sm.jpg");
+  }
+  .descrip {
+    background-image: url("../../img/description/description-sm.jpg");
+  }
+  #slogan {
+    font-size: 2rem;
+  }
+  img.logo {
+    width: 75%;
+  }
+  .caption h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.8rem;
+  }
+  .home-inner {
+    background-position: top center;
+  }
+  h2.heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .heading-underline {
+    margin: 0 auto 1.5rem;
+  }
+  p.main-text {
+    font-size: 1.2rem;
+    overflow: wrap;
+  }
+  p.main-text-sml {
+    font-size: 0.8rem;
+    overflow: wrap;
+  }
+  p.main-text-big {
+    font-size: 1.2rem;
+    overflow: wrap;
+  }
+  .list-group-item {
+    font-size: 1.2rem;
+  }
+  .contact-list {
+    order: 0;
+    display: block;
+  }
+  .contact-form {
+    order: 1;
+    display: block;
+  }
+  .contact-group {
+    padding: 3rem 1rem 0 1rem;
+  }
+  .country {
+    width: 40vw;
+    padding: 0;
+  }
+}
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .home-inner {
+    background-image: url("../../img/landing/landing-md.jpg");
+  }
+  .booking {
+    background-image: url("../../img/booking/booking-md.jpg");
+  }
+  .production {
+    background-image: url("../../img/production/production-md.jpg");
+  }
+  .descrip {
+    background-image: url("../../img/description/description-md.jpg");
+  }
+  h2.heading {
+    font-size: 3rem;
+    margin-bottom: 1.9rem;
+  }
+  .heading-underline {
+    margin: 0 auto 1.5rem;
+  }
+  p.main-text {
+    font-size: 1.2rem;
+    overflow: wrap;
+  }
+  p.main-text-sml {
+    font-size: 1.1rem;
+    overflow: wrap;
+  }
+  p.main-text-big {
+    font-size: 1.4rem;
+    overflow: wrap;
+  }
+  .list-group-item {
+    font-size: 1.2rem;
+  }
+  .pad {
+    padding: 2.5rem 2.5rem;
+  }
+  .descrip {
+    background-position: center;
+  }
+  .big-logo {
+    max-height: 30vh;
+  }
+  .caption h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.8rem;
+  }
+  .caption h2 {
+    font-size: 2.2rem;
+    padding-bottom: 1.7rem;
+  }
+  .btn-lg {
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+  }
+}
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home-inner {
+    background-image: url("../../img/landing/landing-lg.jpg");
+  }
+  .booking {
+    background-image: url("../../img/booking/booking-lg.jpg");
+  }
+  .production {
+    background-image: url("../../img/production/production-lg.jpg");
+  }
+  .descrip {
+    background-image: url("../../img/description/description-lg.jpg");
+  }
+  p.main-text {
+    font-size: 1.2rem;
+    overflow: wrap;
+  }
+  p.main-text-sml {
+    font-size: 1.1rem;
+    overflow: wrap;
+  }
+  p.main-text-big {
+    font-size: 1.5rem;
+    overflow: wrap;
+  }
+  .list-group-item {
+    font-size: 1.2rem;
+  }
+  .contact-group {
+    padding: 3rem 1rem 0 3rem;
+  }
+}
 
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p.main-text {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    overflow: wrap;
+  }
+  .descrip {
+    background-position: center;
+  }
+  .booking {
+    background-image: url("../../img/booking/booking-xl.jpg");
+  }
+}
 
-=============*/
+/* miniscule! (xxxs)  */
+@media (max-width: 282px) {
+  .map-text {
+    font-size: 1rem;
+  }
+}
