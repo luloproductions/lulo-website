@@ -7,14 +7,32 @@
   .home-inner {
     background-image: url("../../img/landing/landing-sm.jpg");
   }
+  .descrip {
+    background-image: url("../../img/description/description-sm.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
+  }
   .booking {
     background-image: url("../../img/booking/booking-sm.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
+  }
+  .booking-dark {
+    background-color: rgba(0, 0, 0, 0.5);
   }
   .production {
     background-image: url("../../img/production/production-sm.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
   }
-  .descrip {
-    background-image: url("../../img/description/description-sm.jpg");
+  .card {
+    background-color: rgba(240, 172, 10, 0.6);
   }
   #slogan {
     font-size: 2rem;

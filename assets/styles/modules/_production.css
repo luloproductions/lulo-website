@@ -1,9 +1,7 @@
 /*===== PRODUCTION SECTION =====*/
 .production {
-  background-image: url("../../img/production/production-xs.jpg");
-  background-size: cover;
+  background-color: rgb(102, 163, 22);
   z-index: -1;
-  background-attachment: fixed;
 }
 .fixed-background {
   position: relative;
@@ -19,12 +17,12 @@
   z-index: 1000 !important;
 }
 .card {
+  background-color: transparent;
   border: 0.1rem solid rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.7);
   /* margin: 0rem 1rem 2rem 1rem; */
   margin: 0;
   /* transition: transform 0.4s ease; */
-  background-color: rgba(240, 172, 10, 0.6);
   margin-bottom: 2rem;
 }
 /* .card:hover {

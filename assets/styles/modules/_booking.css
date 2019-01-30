@@ -1,14 +1,18 @@
 /*===== BOOKING SECTION =====*/
 
 .booking {
-  background-image: url("../../img/booking/booking-xs.jpg");
+  background: rgb(0, 0, 0) url("../../img/booking/booking-sub-xs.jpg") fixed
+    center;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
   z-index: -1;
 }
 .booking-dark {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(2, 85, 29, 0.3);
+  background-attachment: fixed;
   text-align: center;
   z-index: 1000 !important;
   color: white;
